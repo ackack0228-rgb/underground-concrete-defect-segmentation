@@ -122,7 +122,7 @@ week2\run_all.bat
 week3\run_all.bat
 ```
 
-- 학습된 가중치 `best.pt`(기준 모델, 약 118MB — GitHub 파일 크기 제한 100MB 초과)는 저장소의 [Releases](../../releases)에 올려 두었다. 받아서 `runs/step3/weights/best.pt`에 넣으면 3주차를 학습 없이 바로 재현할 수 있다.
+- 학습된 가중치 `best.pt`(기준 모델, 23.9MB)는 코드와 분리해 저장소의 [Releases v1.0](../../releases/tag/v1.0)에 올려 두었다. 받아서 `runs/step3/weights/best.pt`에 넣으면 3주차를 학습 없이 바로 재현할 수 있다.
 - 심화 학습(시드 · 하드네거티브 · U-Net)은 `week3/run_all.bat` 맨 아래 주석의 명령, 또는 `week3/overnight.py`(train_queue.txt 순서로 학습 + 평가)로 다시 만든다. 합계 약 9시간이다.
 
 ### 1.6 코드 파일 설명
