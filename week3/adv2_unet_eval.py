@@ -147,7 +147,7 @@ def main():
         ax[1].bar_label(b, fmt="%.2f", fontsize=7)
     ax[1].set_xticks(x)
     ax[1].set_xticklabels(CLASS_LIST + ["평균"])
-    ax[1].set_ylim(0, 1.12)
+    ax[1].set_ylim(0, 1.3)                                  # 범례가 막대 값 라벨을 가리지 않게
     ax[1].set_title("테스트: ON/OFF F1 (진한 색) · 픽셀 IoU (옅은 색)")
     ax[1].legend(fontsize=7, ncol=2, loc="upper left")
     plt.tight_layout()

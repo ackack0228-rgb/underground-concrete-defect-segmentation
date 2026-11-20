@@ -1,6 +1,6 @@
 # 단계4 테스트셋 ON/OFF 결과 (임계값 = 검증셋에서 선택, 고정 적용)
 
-- thresholds.json 생성 2026-11-20 19:33:42 (val 40장, sha 123d40a69aca) → 변경 없이 사용
+- thresholds.json 생성 2026-11-21 02:33:33 (val 40장, sha 123d40a69aca) → 변경 없이 사용
 - 테스트 영상 40장
 
 | 지표 | crack | efflorescence | spall_detach | macro |

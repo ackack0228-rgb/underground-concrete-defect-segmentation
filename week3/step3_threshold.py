@@ -64,6 +64,7 @@ def main():
     ax.set_xlabel("Confidence threshold")
     ax.set_ylabel("F1-score")
     ax.set_title("Validation F1 by Threshold (val 40장, ○ = 선택)")
+    ax.set_ylim(top=max(max(v) for v in all_scores.values()) + 0.04)   # 선택점 라벨이 위쪽 테두리에 걸리지 않게
     ax.legend()
     ax.grid(True, alpha=0.4)
     plt.tight_layout()

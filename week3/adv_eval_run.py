@@ -67,8 +67,16 @@ def main():
         # 학습이 끝난 ultralytics best.pt는 epoch = -1로 저장된다 (2026-11-20 발견) → results.csv에서 fitness 최고 epoch
         # (ultralytics 8.4 fitness = mAP50-95(B) + mAP50-95(M); 기준 실험 step3에서 epoch 21로 기록과 일치 확인)
         import csv
-        rows = list(csv.DictReader(open(ROOT / "runs" / args.run / "results.csv", encoding="utf-8")))
-        out["best_epoch"] = int(max(rows, key=lambda r: float(r["metrics/mAP50-95(B)"]) + float(r["metrics/mAP50-95(M)"]))["epoch"])
+        res = ROOT / "runs" / args.run / "results.csv"
+        prev = WEEK3 / "adv_runs" / f"{args.tag}.json"
+        if res.exists():
+            rows = list(csv.DictReader(open(res, encoding="utf-8")))
+            out["best_epoch"] = int(max(rows, key=lambda r: float(r["metrics/mAP50-95(B)"]) + float(r["metrics/mAP50-95(M)"]))["epoch"])
+        elif prev.exists():
+            # Release의 best.pt만 받은 경우(results.csv 없음): 저장소에 있는 이전 기록의 값을 그대로 쓴다
+            out["best_epoch"] = json.loads(prev.read_text(encoding="utf-8")).get("best_epoch")
+        else:
+            out.pop("best_epoch", None)
     out["seg_test"] = seg_metrics(model, "test", args.tag)
     out["seg_val"] = seg_metrics(model, "val", args.tag)
     out.update(select_and_test(model, args.tag))

@@ -90,7 +90,8 @@ def main():
     ax[1].set_xticklabels([f"val 음성 조각 {neg['기준']['val']['n']}개", f"test 음성 조각 {neg['기준']['test']['n']}개"])
     ax[1].set_title("음성 조각 중 결함으로 예측한 비율")
     for a in ax:
-        a.legend()
+        a.margins(y=0.25)                    # 범례 · 막대 값 라벨이 막대와 겹치지 않게 위쪽 여유
+        a.legend(loc="upper left")
     plt.tight_layout()
     plt.savefig(WEEK3 / "adv3_hn_eval.png", dpi=140)
     plt.close()

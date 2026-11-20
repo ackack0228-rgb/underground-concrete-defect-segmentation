@@ -1,7 +1,7 @@
 {
   "run": "step3_hn",
   "weights": "runs\\step3_hn\\weights\\best.pt",
-  "evaluated": "2026-11-20 19:35:00",
+  "evaluated": "2026-11-21 02:27:15",
   "best_epoch": 26,
   "seg_test": {
     "mask_mAP50": 0.7061337723053577,

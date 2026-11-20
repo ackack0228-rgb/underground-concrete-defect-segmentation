@@ -19,5 +19,5 @@
   ],
   "tie_rule": "최고 F1 동점이면 낮은 임계값",
   "weights": "runs\\step3\\weights\\best.pt",
-  "created": "2026-11-20 19:33:42"
+  "created": "2026-11-21 02:33:33"
 }
