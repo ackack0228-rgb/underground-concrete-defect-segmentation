@@ -1,0 +1,1018 @@
+{
+  "YOLOv8s-Seg (기준)": {
+    "crack": {
+      "tp": 10,
+      "fp": 2,
+      "fn": 3,
+      "tn": 25,
+      "accuracy": 0.875,
+      "precision": 0.8333333333333334,
+      "recall": 0.7692307692307693,
+      "f1": 0.8
+    },
+    "efflorescence": {
+      "tp": 13,
+      "fp": 1,
+      "fn": 0,
+      "tn": 26,
+      "accuracy": 0.975,
+      "precision": 0.9285714285714286,
+      "recall": 1.0,
+      "f1": 0.962962962962963
+    },
+    "spall_detach": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "tn": 26,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "macro": {
+      "accuracy": 0.9500000000000001,
+      "precision": 0.9206349206349206,
+      "recall": 0.923076923076923,
+      "f1": 0.9209876543209877,
+      "exact_match": 0.85
+    },
+    "thresholds": {
+      "crack": 0.2,
+      "efflorescence": 0.02,
+      "spall_detach": 0.06
+    },
+    "boot_macro_f1_ci": [
+      0.8414862914862915,
+      0.9762110016420361
+    ],
+    "boot_diff_vs_base_ci": [
+      0.0,
+      0.0
+    ],
+    "per_image_on": {
+      "UCT011_2021_01_06_001_6840_jpg.rf.b637f27b7bdf92480508621d4431576c.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_01_06_001_6842_jpg.rf.9bd1a5fda4659669044eafa496b3b680.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_02_12_001_13670_jpg.rf.79e25c8b0a13e9834bbe8a714bb3fe45.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_02_12_001_7560_jpg.rf.61b96aa4fa6fb412149d039d329130f2.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_02_12_001_7770_jpg.rf.3b8c7b272fecfca702e16e9af0383b01.jpg": [
+        false,
+        false,
+        false
+      ],
+      "URT002_2021_01_07_001_23554.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT005_2021_01_01_001_9522_jpg.rf.8a00dee0bb11e4d2c6917460571e0bd0.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_01_02_001_17812_jpg.rf.73a260d685025aa7030a1eb8351b29a1.jpg": [
+        false,
+        false,
+        false
+      ],
+      "URT005_2021_01_02_001_9016_jpg.rf.cc3349867461d0ec12b30c4b2eaf04b3.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_01_03_001_13040.jpg": [
+        false,
+        false,
+        false
+      ],
+      "URT005_2021_02_10_001_4156.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT006_2022_04_06_001_5022.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT007_2022_01_01_001_4832.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_03_001_13136.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT007_2022_01_03_001_20220_jpg.rf.451c3967d0d0b82191503d15cf788781.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_03_001_33350.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT007_2022_01_04_001_3890_jpg.rf.8a52b416ed68695af38e660e3e49c4ff.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_11_001_14386_jpg.rf.fc222653d1b3f3e8b3350d7e7f9331f9.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_11_001_1914.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_12_001_1810.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_10384_jpg.rf.acb5354688309dd57d457f2b50f9f623.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_14472_jpg.rf.9ae3c22cddeedae352ccc55387f6b734.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_15760.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_24084.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_32964.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_091_33074_jpg.rf.dc07dcb513157dd024c2c8f80121d0ec.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_14_001_6432.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT008_2022_01_12_001_26506.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT008_2022_02_06_001_22410.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_01_10_001_14292.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_05_001_11788_jpg.rf.278d799bc2d3bb6c677373024bd8a37e.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_05_001_11796_jpg.rf.eaf45d92380a2bb59c4abd456b89c221.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_05_001_14659.jpg": [
+        true,
+        false,
+        true
+      ],
+      "URT010_2022_02_06_001_23815.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_08_001_23809.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT017_2020_02_05_001_17847.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT017_2020_02_06_002_13146.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT017_2020_02_08_001_24512_jpg.rf.c2fd9d2931d850bd20aef4922bbe65b0.jpg": [
+        false,
+        true,
+        true
+      ],
+      "USU013_2022_04_16_005_2734_jpg.rf.af47edd2d0aafdc054c9daae58c2fa3d.jpg": [
+        false,
+        false,
+        true
+      ],
+      "UWT015_2021_01_02_001_17710_jpg.rf.7572a104cdadc04b5de0863fff1bdf11.jpg": [
+        true,
+        true,
+        false
+      ]
+    }
+  },
+  "YOLOv8s-Seg + 하드네거티브": {
+    "crack": {
+      "tp": 12,
+      "fp": 1,
+      "fn": 1,
+      "tn": 26,
+      "accuracy": 0.95,
+      "precision": 0.9230769230769231,
+      "recall": 0.9230769230769231,
+      "f1": 0.9230769230769231
+    },
+    "efflorescence": {
+      "tp": 13,
+      "fp": 5,
+      "fn": 0,
+      "tn": 22,
+      "accuracy": 0.875,
+      "precision": 0.7222222222222222,
+      "recall": 1.0,
+      "f1": 0.8387096774193548
+    },
+    "spall_detach": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 1,
+      "tn": 26,
+      "accuracy": 0.975,
+      "precision": 1.0,
+      "recall": 0.9285714285714286,
+      "f1": 0.962962962962963
+    },
+    "macro": {
+      "accuracy": 0.9333333333333332,
+      "precision": 0.8817663817663818,
+      "recall": 0.9505494505494506,
+      "f1": 0.9082498544864137,
+      "exact_match": 0.8
+    },
+    "thresholds": {
+      "crack": 0.06,
+      "efflorescence": 0.001,
+      "spall_detach": 0.2
+    },
+    "boot_macro_f1_ci": [
+      0.8360185185185185,
+      0.9632930557053979
+    ],
+    "boot_diff_vs_base_ci": [
+      -0.08479971988795523,
+      0.06542341067723079
+    ],
+    "per_image_on": {
+      "UCT011_2021_01_06_001_6840_jpg.rf.b637f27b7bdf92480508621d4431576c.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_01_06_001_6842_jpg.rf.9bd1a5fda4659669044eafa496b3b680.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_02_12_001_13670_jpg.rf.79e25c8b0a13e9834bbe8a714bb3fe45.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_02_12_001_7560_jpg.rf.61b96aa4fa6fb412149d039d329130f2.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_02_12_001_7770_jpg.rf.3b8c7b272fecfca702e16e9af0383b01.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT002_2021_01_07_001_23554.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT005_2021_01_01_001_9522_jpg.rf.8a00dee0bb11e4d2c6917460571e0bd0.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_01_02_001_17812_jpg.rf.73a260d685025aa7030a1eb8351b29a1.jpg": [
+        false,
+        false,
+        false
+      ],
+      "URT005_2021_01_02_001_9016_jpg.rf.cc3349867461d0ec12b30c4b2eaf04b3.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_01_03_001_13040.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_02_10_001_4156.jpg": [
+        true,
+        true,
+        false
+      ],
+      "URT006_2022_04_06_001_5022.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT007_2022_01_01_001_4832.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_03_001_13136.jpg": [
+        false,
+        true,
+        true
+      ],
+      "URT007_2022_01_03_001_20220_jpg.rf.451c3967d0d0b82191503d15cf788781.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_03_001_33350.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT007_2022_01_04_001_3890_jpg.rf.8a52b416ed68695af38e660e3e49c4ff.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_11_001_14386_jpg.rf.fc222653d1b3f3e8b3350d7e7f9331f9.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_11_001_1914.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_12_001_1810.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_10384_jpg.rf.acb5354688309dd57d457f2b50f9f623.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_14472_jpg.rf.9ae3c22cddeedae352ccc55387f6b734.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_15760.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_24084.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_32964.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_091_33074_jpg.rf.dc07dcb513157dd024c2c8f80121d0ec.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_14_001_6432.jpg": [
+        false,
+        false,
+        false
+      ],
+      "URT008_2022_01_12_001_26506.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT008_2022_02_06_001_22410.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_01_10_001_14292.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_05_001_11788_jpg.rf.278d799bc2d3bb6c677373024bd8a37e.jpg": [
+        true,
+        false,
+        true
+      ],
+      "URT010_2022_02_05_001_11796_jpg.rf.eaf45d92380a2bb59c4abd456b89c221.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_05_001_14659.jpg": [
+        false,
+        true,
+        true
+      ],
+      "URT010_2022_02_06_001_23815.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_08_001_23809.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT017_2020_02_05_001_17847.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT017_2020_02_06_002_13146.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT017_2020_02_08_001_24512_jpg.rf.c2fd9d2931d850bd20aef4922bbe65b0.jpg": [
+        false,
+        true,
+        true
+      ],
+      "USU013_2022_04_16_005_2734_jpg.rf.af47edd2d0aafdc054c9daae58c2fa3d.jpg": [
+        false,
+        true,
+        true
+      ],
+      "UWT015_2021_01_02_001_17710_jpg.rf.7572a104cdadc04b5de0863fff1bdf11.jpg": [
+        false,
+        true,
+        false
+      ]
+    }
+  },
+  "U-Net (최종 · 강한 증강)": {
+    "crack": {
+      "tp": 13,
+      "fp": 2,
+      "fn": 0,
+      "tn": 25,
+      "accuracy": 0.95,
+      "precision": 0.8666666666666667,
+      "recall": 1.0,
+      "f1": 0.9285714285714286
+    },
+    "efflorescence": {
+      "tp": 11,
+      "fp": 0,
+      "fn": 2,
+      "tn": 27,
+      "accuracy": 0.95,
+      "precision": 1.0,
+      "recall": 0.8461538461538461,
+      "f1": 0.9166666666666666
+    },
+    "spall_detach": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 2,
+      "tn": 26,
+      "accuracy": 0.95,
+      "precision": 1.0,
+      "recall": 0.8571428571428571,
+      "f1": 0.923076923076923
+    },
+    "macro": {
+      "accuracy": 0.9499999999999998,
+      "precision": 0.9555555555555556,
+      "recall": 0.9010989010989011,
+      "f1": 0.9227716727716727,
+      "exact_match": 0.9
+    },
+    "thresholds": {
+      "crack": 0.003,
+      "efflorescence": 0.003,
+      "spall_detach": 0.01
+    },
+    "boot_macro_f1_ci": [
+      0.8258520074696546,
+      0.9876543209876543
+    ],
+    "boot_diff_vs_base_ci": [
+      -0.09824202477386222,
+      0.09784262486167575
+    ],
+    "per_image_on": {
+      "UCT011_2021_01_06_001_6840_jpg.rf.b637f27b7bdf92480508621d4431576c.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_01_06_001_6842_jpg.rf.9bd1a5fda4659669044eafa496b3b680.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_02_12_001_13670_jpg.rf.79e25c8b0a13e9834bbe8a714bb3fe45.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_02_12_001_7560_jpg.rf.61b96aa4fa6fb412149d039d329130f2.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_02_12_001_7770_jpg.rf.3b8c7b272fecfca702e16e9af0383b01.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT002_2021_01_07_001_23554.jpg": [
+        false,
+        false,
+        false
+      ],
+      "URT005_2021_01_01_001_9522_jpg.rf.8a00dee0bb11e4d2c6917460571e0bd0.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_01_02_001_17812_jpg.rf.73a260d685025aa7030a1eb8351b29a1.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_01_02_001_9016_jpg.rf.cc3349867461d0ec12b30c4b2eaf04b3.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_01_03_001_13040.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_02_10_001_4156.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT006_2022_04_06_001_5022.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT007_2022_01_01_001_4832.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_03_001_13136.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT007_2022_01_03_001_20220_jpg.rf.451c3967d0d0b82191503d15cf788781.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_03_001_33350.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT007_2022_01_04_001_3890_jpg.rf.8a52b416ed68695af38e660e3e49c4ff.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_11_001_14386_jpg.rf.fc222653d1b3f3e8b3350d7e7f9331f9.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_11_001_1914.jpg": [
+        false,
+        false,
+        false
+      ],
+      "URT007_2022_01_12_001_1810.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_10384_jpg.rf.acb5354688309dd57d457f2b50f9f623.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_14472_jpg.rf.9ae3c22cddeedae352ccc55387f6b734.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_15760.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_24084.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_32964.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_091_33074_jpg.rf.dc07dcb513157dd024c2c8f80121d0ec.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_14_001_6432.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT008_2022_01_12_001_26506.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT008_2022_02_06_001_22410.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_01_10_001_14292.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_05_001_11788_jpg.rf.278d799bc2d3bb6c677373024bd8a37e.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_05_001_11796_jpg.rf.eaf45d92380a2bb59c4abd456b89c221.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_05_001_14659.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_06_001_23815.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_08_001_23809.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT017_2020_02_05_001_17847.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT017_2020_02_06_002_13146.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT017_2020_02_08_001_24512_jpg.rf.c2fd9d2931d850bd20aef4922bbe65b0.jpg": [
+        false,
+        false,
+        true
+      ],
+      "USU013_2022_04_16_005_2734_jpg.rf.af47edd2d0aafdc054c9daae58c2fa3d.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UWT015_2021_01_02_001_17710_jpg.rf.7572a104cdadc04b5de0863fff1bdf11.jpg": [
+        true,
+        false,
+        false
+      ]
+    }
+  },
+  "U-Net (약한 증강 · 참고)": {
+    "crack": {
+      "tp": 13,
+      "fp": 1,
+      "fn": 0,
+      "tn": 26,
+      "accuracy": 0.975,
+      "precision": 0.9285714285714286,
+      "recall": 1.0,
+      "f1": 0.962962962962963
+    },
+    "efflorescence": {
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "tn": 27,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "spall_detach": {
+      "tp": 12,
+      "fp": 2,
+      "fn": 2,
+      "tn": 24,
+      "accuracy": 0.9,
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1": 0.8571428571428571
+    },
+    "macro": {
+      "accuracy": 0.9583333333333334,
+      "precision": 0.9285714285714285,
+      "recall": 0.9523809523809524,
+      "f1": 0.9400352733686067,
+      "exact_match": 0.875
+    },
+    "thresholds": {
+      "crack": 1e-06,
+      "efflorescence": 0.01,
+      "spall_detach": 0.003
+    },
+    "boot_macro_f1_ci": [
+      0.8776587716242887,
+      0.9848484848484849
+    ],
+    "boot_diff_vs_base_ci": [
+      -0.06455687830687834,
+      0.10663972051467656
+    ],
+    "per_image_on": {
+      "UCT011_2021_01_06_001_6840_jpg.rf.b637f27b7bdf92480508621d4431576c.jpg": [
+        true,
+        false,
+        true
+      ],
+      "UCT011_2021_01_06_001_6842_jpg.rf.9bd1a5fda4659669044eafa496b3b680.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_02_12_001_13670_jpg.rf.79e25c8b0a13e9834bbe8a714bb3fe45.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_02_12_001_7560_jpg.rf.61b96aa4fa6fb412149d039d329130f2.jpg": [
+        true,
+        false,
+        false
+      ],
+      "UCT011_2021_02_12_001_7770_jpg.rf.3b8c7b272fecfca702e16e9af0383b01.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT002_2021_01_07_001_23554.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT005_2021_01_01_001_9522_jpg.rf.8a00dee0bb11e4d2c6917460571e0bd0.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_01_02_001_17812_jpg.rf.73a260d685025aa7030a1eb8351b29a1.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_01_02_001_9016_jpg.rf.cc3349867461d0ec12b30c4b2eaf04b3.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_01_03_001_13040.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT005_2021_02_10_001_4156.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT006_2022_04_06_001_5022.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT007_2022_01_01_001_4832.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_03_001_13136.jpg": [
+        false,
+        false,
+        false
+      ],
+      "URT007_2022_01_03_001_20220_jpg.rf.451c3967d0d0b82191503d15cf788781.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_03_001_33350.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT007_2022_01_04_001_3890_jpg.rf.8a52b416ed68695af38e660e3e49c4ff.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_11_001_14386_jpg.rf.fc222653d1b3f3e8b3350d7e7f9331f9.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_11_001_1914.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_12_001_1810.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_10384_jpg.rf.acb5354688309dd57d457f2b50f9f623.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_14472_jpg.rf.9ae3c22cddeedae352ccc55387f6b734.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_15760.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_24084.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_13_001_32964.jpg": [
+        false,
+        true,
+        true
+      ],
+      "URT007_2022_01_13_091_33074_jpg.rf.dc07dcb513157dd024c2c8f80121d0ec.jpg": [
+        false,
+        true,
+        false
+      ],
+      "URT007_2022_01_14_001_6432.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT008_2022_01_12_001_26506.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT008_2022_02_06_001_22410.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_01_10_001_14292.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_05_001_11788_jpg.rf.278d799bc2d3bb6c677373024bd8a37e.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_05_001_11796_jpg.rf.eaf45d92380a2bb59c4abd456b89c221.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_05_001_14659.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_06_001_23815.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT010_2022_02_08_001_23809.jpg": [
+        false,
+        false,
+        true
+      ],
+      "URT017_2020_02_05_001_17847.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT017_2020_02_06_002_13146.jpg": [
+        true,
+        false,
+        false
+      ],
+      "URT017_2020_02_08_001_24512_jpg.rf.c2fd9d2931d850bd20aef4922bbe65b0.jpg": [
+        false,
+        false,
+        true
+      ],
+      "USU013_2022_04_16_005_2734_jpg.rf.af47edd2d0aafdc054c9daae58c2fa3d.jpg": [
+        false,
+        false,
+        false
+      ],
+      "UWT015_2021_01_02_001_17710_jpg.rf.7572a104cdadc04b5de0863fff1bdf11.jpg": [
+        true,
+        true,
+        false
+      ]
+    }
+  }
+}

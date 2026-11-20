@@ -1,0 +1,7 @@
+# 이름 | 스크립트 | 인자   (train_queue.py가 위에서부터 차례로 학습)
+# 2026-11-18 최종 제출 양식("모델별 성능 비교" 2개 이상) 때문에 U-Net을 맨 앞으로 옮김
+unet | adv2_unet_train.py | --name unet
+step3_hn | adv_yolo_train.py | --seed 42 --data hn --name step3_hn
+step3_seed0 | adv_yolo_train.py | --seed 0
+step3_seed1 | adv_yolo_train.py | --seed 1
+unet_aug | adv2_unet_train.py | --name unet_aug --aug strong

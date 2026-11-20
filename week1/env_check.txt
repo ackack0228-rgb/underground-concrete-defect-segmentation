@@ -1,0 +1,14 @@
+torch: 2.11.0+cu128
+cuda: True
+device: NVIDIA GeForce RTX 3060 Laptop GPU
+model loaded
+
+python: 3.13.3 | Windows-11-10.0.26300-SP0
+ultralytics: 8.4.197
+opencv-python: 5.0.0
+matplotlib: 3.11.2
+torch CUDA build: 12.8
+GPU memory: 6.0 GB
+task: segment
+classes in pretrained weights: 80 (COCO 사전학습 가중치)
+parameters: 11.8 M

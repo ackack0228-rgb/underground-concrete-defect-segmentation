@@ -1,0 +1,30 @@
+2026-11-16 13:05:11  step1_eval  test mask mAP50 0.614 / mAP50-95 0.293
+2026-11-16 13:06:06  step2_onoff  val thr=0.5 check
+2026-11-16 13:06:13  step3_threshold  val only → {'crack': 0.2, 'efflorescence': 0.02, 'spall_detach': 0.06} (sha 123d40a69aca)
+2026-11-16 13:06:45  step4_test  thresholds from json {'crack': 0.2, 'efflorescence': 0.02, 'spall_detach': 0.06} → test macro F1 0.921
+2026-11-16 13:07:22  step5_errors  6 cases
+2026-11-16 13:08:20  adv1_common_threshold  common 0.2 (val) → gain val +0.013 test +0.043
+=== 2026-11-16 13:08:40 run_all 시작 (전체 다시 실행) ===
+2026-11-16 13:09:07  step1_eval  test mask mAP50 0.614 / mAP50-95 0.293
+2026-11-16 13:09:11  step2_onoff  val thr=0.5 check
+2026-11-16 13:09:17  step3_threshold  val only → {'crack': 0.2, 'efflorescence': 0.02, 'spall_detach': 0.06} (sha 123d40a69aca)
+2026-11-16 13:09:21  step4_test  thresholds from json {'crack': 0.2, 'efflorescence': 0.02, 'spall_detach': 0.06} → test macro F1 0.921
+2026-11-16 13:09:32  step5_errors  6 cases
+2026-11-16 13:09:39  adv1_common_threshold  common 0.2 (val) → gain val +0.013 test +0.043
+=== 2026-11-16 13:09:52 그림 눈금 수정 후 단계3~심화 다시 실행 ===
+2026-11-16 13:09:58  step3_threshold  val only → {'crack': 0.2, 'efflorescence': 0.02, 'spall_detach': 0.06} (sha 123d40a69aca)
+2026-11-16 13:10:04  step4_test  thresholds from json {'crack': 0.2, 'efflorescence': 0.02, 'spall_detach': 0.06} → test macro F1 0.921
+2026-11-16 13:10:14  step5_errors  6 cases
+2026-11-16 13:10:20  adv1_common_threshold  common 0.2 (val) → gain val +0.013 test +0.043
+2026-11-20 19:28:45  step1_eval  test mask mAP50 0.614 / mAP50-95 0.293
+2026-11-20 19:28:49  step2_onoff  val thr=0.5 check
+2026-11-20 19:28:53  step3_threshold  val only → {'crack': 0.2, 'efflorescence': 0.02, 'spall_detach': 0.06} (sha 123d40a69aca)
+2026-11-20 19:28:57  step4_test  thresholds from json {'crack': 0.2, 'efflorescence': 0.02, 'spall_detach': 0.06} → test macro F1 0.921
+2026-11-20 19:29:04  step5_errors  6 cases
+2026-11-20 19:31:17  adv4_common_threshold  common 0.2 (val) → gain val +0.013 test +0.043
+2026-11-20 19:33:34  step1_eval  test mask mAP50 0.614 / mAP50-95 0.293
+2026-11-20 19:33:37  step2_onoff  val thr=0.5 check
+2026-11-20 19:33:42  step3_threshold  val only → {'crack': 0.2, 'efflorescence': 0.02, 'spall_detach': 0.06} (sha 123d40a69aca)
+2026-11-20 19:33:45  step4_test  thresholds from json {'crack': 0.2, 'efflorescence': 0.02, 'spall_detach': 0.06} → test macro F1 0.921
+2026-11-20 19:33:53  step5_errors  6 cases
+2026-11-20 19:36:04  adv4_common_threshold  common 0.2 (val) → gain val +0.013 test +0.043

@@ -1,0 +1,1532 @@
+{
+  "stats": {
+    "train_images": 3918,
+    "candidates": 8481,
+    "hard_found": 2190,
+    "chosen": 108,
+    "origins": 56,
+    "neg_eval": {
+      "val": 88,
+      "test": 59
+    },
+    "by_class": {
+      "crack": 31,
+      "efflorescence": 36,
+      "spall_detach": 41
+    }
+  },
+  "chosen": [
+    {
+      "src": "URT004_2021_03_09_001_22504_aug_3_00693_augfill_01105_rot180.jpg",
+      "origin": "URT004_2021_03_09_001_22504",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.9089,
+      "n_fp": 3,
+      "file": "hn000_URT004_2021_03_09_001_22504_aug_3_00693_augfill_01105_rot180.jpg"
+    },
+    {
+      "src": "URT004_2021_03_09_001_22504_aug_3_00693_augfill_01105_rot180.jpg",
+      "origin": "URT004_2021_03_09_001_22504",
+      "box": [
+        640,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.8981,
+      "n_fp": 1,
+      "file": "hn001_URT004_2021_03_09_001_22504_aug_3_00693_augfill_01105_rot180.jpg"
+    },
+    {
+      "src": "URT002_2021_03_06_001_22866_aug_1_00016_augfill_01438_rot90cw.jpg",
+      "origin": "URT002_2021_03_06_001_22866",
+      "box": [
+        360,
+        320,
+        720,
+        1280
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.889,
+      "n_fp": 1,
+      "file": "hn002_URT002_2021_03_06_001_22866_aug_1_00016_augfill_01438_rot90c.jpg"
+    },
+    {
+      "src": "URT007_2022_01_12_001_29334_aug_1_00519_augfill_00383_rot90ccw.jpg",
+      "origin": "URT007_2022_01_12_001_29334",
+      "box": [
+        0,
+        640,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.8681,
+      "n_fp": 9,
+      "file": "hn003_URT007_2022_01_12_001_29334_aug_1_00519_augfill_00383_rot90c.jpg"
+    },
+    {
+      "src": "URT004_2021_03_08_001_22498_aug_3_00210_augfill_00431_rot90cw.jpg",
+      "origin": "URT004_2021_03_08_001_22498",
+      "box": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.8658,
+      "n_fp": 1,
+      "file": "hn004_URT004_2021_03_08_001_22498_aug_3_00210_augfill_00431_rot90c.jpg"
+    },
+    {
+      "src": "URT002_2021_03_05_001_15100_aug_3_00081_augfill_01259_rot180.jpg",
+      "origin": "URT002_2021_03_05_001_15100",
+      "box": [
+        640,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.863,
+      "n_fp": 1,
+      "file": "hn005_URT002_2021_03_05_001_15100_aug_3_00081_augfill_01259_rot180.jpg"
+    },
+    {
+      "src": "URT002_2021_03_06_001_22866_aug_1_00663_augfill_00368_rot180_contrast.jpg",
+      "origin": "URT002_2021_03_06_001_22866",
+      "box": [
+        320,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.8627,
+      "n_fp": 1,
+      "file": "hn006_URT002_2021_03_06_001_22866_aug_1_00663_augfill_00368_rot180.jpg"
+    },
+    {
+      "src": "URT007_2022_01_12_001_29334_aug_1_00669_augfill_00188_hflip_brightness.jpg",
+      "origin": "URT007_2022_01_12_001_29334",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.8354,
+      "n_fp": 2,
+      "file": "hn007_URT007_2022_01_12_001_29334_aug_1_00669_augfill_00188_hflip_.jpg"
+    },
+    {
+      "src": "URT007_2022_01_14_001_4830_aug_2_00928_augfill_00448_vflip.jpg",
+      "origin": "URT007_2022_01_14_001_4830",
+      "box": [
+        640,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.832,
+      "n_fp": 2,
+      "file": "hn008_URT007_2022_01_14_001_4830_aug_2_00928_augfill_00448_vflip.jpg"
+    },
+    {
+      "src": "URT002_2021_01_10_001_1636_aug_1_00679.jpg",
+      "origin": "URT002_2021_01_10_001_1636",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.8252,
+      "n_fp": 2,
+      "file": "hn009_URT002_2021_01_10_001_1636_aug_1_00679.jpg"
+    },
+    {
+      "src": "URT005_2021_02_13_001_4694_aug_3_00005.jpg",
+      "origin": "URT005_2021_02_13_001_4694",
+      "box": [
+        640,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.8239,
+      "n_fp": 1,
+      "file": "hn010_URT005_2021_02_13_001_4694_aug_3_00005.jpg"
+    },
+    {
+      "src": "URT005_2021_02_13_001_4694_aug_3_00286_augfill_01416_noise.jpg",
+      "origin": "URT005_2021_02_13_001_4694",
+      "box": [
+        640,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.8076,
+      "n_fp": 1,
+      "file": "hn011_URT005_2021_02_13_001_4694_aug_3_00286_augfill_01416_noise.jpg"
+    },
+    {
+      "src": "URT002_2021_01_10_001_1636_aug_1_00140.jpg",
+      "origin": "URT002_2021_01_10_001_1636",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.8073,
+      "n_fp": 1,
+      "file": "hn012_URT002_2021_01_10_001_1636_aug_1_00140.jpg"
+    },
+    {
+      "src": "URT002_2021_03_05_001_15100_aug_3_00852_augfill_00658_rot90ccw.jpg",
+      "origin": "URT002_2021_03_05_001_15100",
+      "box": [
+        360,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.8073,
+      "n_fp": 1,
+      "file": "hn013_URT002_2021_03_05_001_15100_aug_3_00852_augfill_00658_rot90c.jpg"
+    },
+    {
+      "src": "URT004_2021_03_08_001_22498_aug_3_00210_augfill_00431_rot90cw.jpg",
+      "origin": "URT004_2021_03_08_001_22498",
+      "box": [
+        0,
+        320,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.7961,
+      "n_fp": 2,
+      "file": "hn014_URT004_2021_03_08_001_22498_aug_3_00210_augfill_00431_rot90c.jpg"
+    },
+    {
+      "src": "URT006_2022_02_10_001_6510_augfill_01567_rot180_contrast.jpg",
+      "origin": "URT006_2022_02_10_001_6510",
+      "box": [
+        0,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.7948,
+      "n_fp": 1,
+      "file": "hn015_URT006_2022_02_10_001_6510_augfill_01567_rot180_contrast.jpg"
+    },
+    {
+      "src": "URT010_2022_02_05_001_3595_aug_3_00382.jpg",
+      "origin": "URT010_2022_02_05_001_3595",
+      "box": [
+        640,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.7815,
+      "n_fp": 2,
+      "file": "hn016_URT010_2022_02_05_001_3595_aug_3_00382.jpg"
+    },
+    {
+      "src": "URT007_2022_01_14_001_4830_aug_2_00621_augfill_00871_rot90ccw.jpg",
+      "origin": "URT007_2022_01_14_001_4830",
+      "box": [
+        180,
+        640,
+        720,
+        1280
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.7679,
+      "n_fp": 2,
+      "file": "hn017_URT007_2022_01_14_001_4830_aug_2_00621_augfill_00871_rot90cc.jpg"
+    },
+    {
+      "src": "URT007_2022_01_13_001_18976_aug_2_00426_augfill_00413_brightness.jpg",
+      "origin": "URT007_2022_01_13_001_18976",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.762,
+      "n_fp": 2,
+      "file": "hn018_URT007_2022_01_13_001_18976_aug_2_00426_augfill_00413_bright.jpg"
+    },
+    {
+      "src": "URT008_2022_04_03_001_15428_aug_1_00762_augfill_00664_rot180_contrast.jpg",
+      "origin": "URT008_2022_04_03_001_15428",
+      "box": [
+        640,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.7467,
+      "n_fp": 1,
+      "file": "hn019_URT008_2022_04_03_001_15428_aug_1_00762_augfill_00664_rot180.jpg"
+    },
+    {
+      "src": "URT010_2022_02_05_001_3595_aug_3_00365.jpg",
+      "origin": "URT010_2022_02_05_001_3595",
+      "box": [
+        640,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.7431,
+      "n_fp": 1,
+      "file": "hn020_URT010_2022_02_05_001_3595_aug_3_00365.jpg"
+    },
+    {
+      "src": "URT008_2022_01_10_001_7556_aug_3_00756.jpg",
+      "origin": "URT008_2022_01_10_001_7556",
+      "box": [
+        320,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.7347,
+      "n_fp": 2,
+      "file": "hn021_URT008_2022_01_10_001_7556_aug_3_00756.jpg"
+    },
+    {
+      "src": "URT020_2021_03_05_002_20650_aug_3_00297_augfill_00611_rot180.jpg",
+      "origin": "URT020_2021_03_05_002_20650",
+      "box": [
+        320,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.7283,
+      "n_fp": 4,
+      "file": "hn022_URT020_2021_03_05_002_20650_aug_3_00297_augfill_00611_rot180.jpg"
+    },
+    {
+      "src": "URT010_2022_02_06_001_23818_aug_1_00095_augfill_00207_noise.jpg",
+      "origin": "URT010_2022_02_06_001_23818",
+      "box": [
+        0,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.7222,
+      "n_fp": 1,
+      "file": "hn023_URT010_2022_02_06_001_23818_aug_1_00095_augfill_00207_noise.jpg"
+    },
+    {
+      "src": "URT004_2021_02_05_091_19626_aug_0_00954_augfill_01417_hflip.jpg",
+      "origin": "URT004_2021_02_05_091_19626",
+      "box": [
+        0,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.719,
+      "n_fp": 1,
+      "file": "hn024_URT004_2021_02_05_091_19626_aug_0_00954_augfill_01417_hflip.jpg"
+    },
+    {
+      "src": "URT010_2022_02_06_001_23818_aug_1_00095.jpg",
+      "origin": "URT010_2022_02_06_001_23818",
+      "box": [
+        0,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.7146,
+      "n_fp": 1,
+      "file": "hn025_URT010_2022_02_06_001_23818_aug_1_00095.jpg"
+    },
+    {
+      "src": "URT005_2021_02_10_001_11538_aug_0_00568_augfill_00142_hflip_brightness.jpg",
+      "origin": "URT005_2021_02_10_001_11538",
+      "box": [
+        640,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.6953,
+      "n_fp": 2,
+      "file": "hn026_URT005_2021_02_10_001_11538_aug_0_00568_augfill_00142_hflip_.jpg"
+    },
+    {
+      "src": "URT020_2021_03_05_002_20650_aug_3_00119.jpg",
+      "origin": "URT020_2021_03_05_002_20650",
+      "box": [
+        0,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.693,
+      "n_fp": 4,
+      "file": "hn027_URT020_2021_03_05_002_20650_aug_3_00119.jpg"
+    },
+    {
+      "src": "URT010_2022_02_06_001_23809_aug_1_00253_augfill_00230_rot180.jpg",
+      "origin": "URT010_2022_02_06_001_23809",
+      "box": [
+        320,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.6911,
+      "n_fp": 2,
+      "file": "hn028_URT010_2022_02_06_001_23809_aug_1_00253_augfill_00230_rot180.jpg"
+    },
+    {
+      "src": "URT007_2022_01_12_001_12236_aug_2_00739.jpg",
+      "origin": "URT007_2022_01_12_001_12236",
+      "box": [
+        640,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.6882,
+      "n_fp": 2,
+      "file": "hn029_URT007_2022_01_12_001_12236_aug_2_00739.jpg"
+    },
+    {
+      "src": "URT007_2022_01_12_001_12236_aug_2_00888_augfill_01566_rot90cw.jpg",
+      "origin": "URT007_2022_01_12_001_12236",
+      "box": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.6835,
+      "n_fp": 2,
+      "file": "hn030_URT007_2022_01_12_001_12236_aug_2_00888_augfill_01566_rot90c.jpg"
+    },
+    {
+      "src": "URT010_2022_02_09_001_2500_aug_3_00679_augfill_00373_rot90ccw.jpg",
+      "origin": "URT010_2022_02_09_001_2500",
+      "box": [
+        180,
+        640,
+        720,
+        1280
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.6691,
+      "n_fp": 1,
+      "file": "hn031_URT010_2022_02_09_001_2500_aug_3_00679_augfill_00373_rot90cc.jpg"
+    },
+    {
+      "src": "URT008_2022_04_03_001_15428_aug_1_00928.jpg",
+      "origin": "URT008_2022_04_03_001_15428",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.6687,
+      "n_fp": 3,
+      "file": "hn032_URT008_2022_04_03_001_15428_aug_1_00928.jpg"
+    },
+    {
+      "src": "URT004_2021_02_05_091_19626_aug_0_00951.jpg",
+      "origin": "URT004_2021_02_05_091_19626",
+      "box": [
+        0,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.6659,
+      "n_fp": 1,
+      "file": "hn033_URT004_2021_02_05_091_19626_aug_0_00951.jpg"
+    },
+    {
+      "src": "URT005_2021_02_10_001_11538_aug_0_00503.jpg",
+      "origin": "URT005_2021_02_10_001_11538",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.6506,
+      "n_fp": 5,
+      "file": "hn034_URT005_2021_02_10_001_11538_aug_0_00503.jpg"
+    },
+    {
+      "src": "URT010_2022_01_10_001_14286_aug_1_00278_augfill_00341_vflip.jpg",
+      "origin": "URT010_2022_01_10_001_14286",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.6468,
+      "n_fp": 2,
+      "file": "hn035_URT010_2022_01_10_001_14286_aug_1_00278_augfill_00341_vflip.jpg"
+    },
+    {
+      "src": "URT008_2022_01_10_001_7556_aug_3_00756_augfill_00980_rot180_contrast.jpg",
+      "origin": "URT008_2022_01_10_001_7556",
+      "box": [
+        320,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.6444,
+      "n_fp": 1,
+      "file": "hn036_URT008_2022_01_10_001_7556_aug_3_00756_augfill_00980_rot180_.jpg"
+    },
+    {
+      "src": "URT007_2022_01_01_001_4742_aug_2_00747_augfill_00048_hflip_brightness.jpg",
+      "origin": "URT007_2022_01_01_001_4742",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.6122,
+      "n_fp": 7,
+      "file": "hn037_URT007_2022_01_01_001_4742_aug_2_00747_augfill_00048_hflip_b.jpg"
+    },
+    {
+      "src": "URT007_2022_01_01_001_4742_aug_2_00111.jpg",
+      "origin": "URT007_2022_01_01_001_4742",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.6091,
+      "n_fp": 1,
+      "file": "hn038_URT007_2022_01_01_001_4742_aug_2_00111.jpg"
+    },
+    {
+      "src": "URT017_2020_01_14_002_6737_aug_0_00550_augfill_00940_rot90cw.jpg",
+      "origin": "URT017_2020_01_14_002_6737",
+      "box": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.5945,
+      "n_fp": 1,
+      "file": "hn039_URT017_2020_01_14_002_6737_aug_0_00550_augfill_00940_rot90cw.jpg"
+    },
+    {
+      "src": "URT008_2022_02_04_001_13752_aug_3_00535_augfill_01041_brightness.jpg",
+      "origin": "URT008_2022_02_04_001_13752",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.5931,
+      "n_fp": 1,
+      "file": "hn040_URT008_2022_02_04_001_13752_aug_3_00535_augfill_01041_bright.jpg"
+    },
+    {
+      "src": "URT007_2022_01_03_001_8820_aug_2_00069_augfill_01368_rot90cw.jpg",
+      "origin": "URT007_2022_01_03_001_8820",
+      "box": [
+        180,
+        320,
+        720,
+        1280
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.593,
+      "n_fp": 5,
+      "file": "hn041_URT007_2022_01_03_001_8820_aug_2_00069_augfill_01368_rot90cw.jpg"
+    },
+    {
+      "src": "URT007_2022_01_13_001_18976_aug_2_00426.jpg",
+      "origin": "URT007_2022_01_13_001_18976",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.592,
+      "n_fp": 2,
+      "file": "hn042_URT007_2022_01_13_001_18976_aug_2_00426.jpg"
+    },
+    {
+      "src": "URT007_2022_01_12_001_34998_augfill_00722_noise.jpg",
+      "origin": "URT007_2022_01_12_001_34998",
+      "box": [
+        0,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.5897,
+      "n_fp": 2,
+      "file": "hn043_URT007_2022_01_12_001_34998_augfill_00722_noise.jpg"
+    },
+    {
+      "src": "URT010_2022_01_10_001_14286_aug_1_00328_augfill_01083_rot90ccw.jpg",
+      "origin": "URT010_2022_01_10_001_14286",
+      "box": [
+        360,
+        640,
+        720,
+        1280
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.5856,
+      "n_fp": 1,
+      "file": "hn044_URT010_2022_01_10_001_14286_aug_1_00328_augfill_01083_rot90c.jpg"
+    },
+    {
+      "src": "URT007_2022_01_03_001_8820_aug_2_00069_augfill_01368_rot90cw.jpg",
+      "origin": "URT007_2022_01_03_001_8820",
+      "box": [
+        180,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.5774,
+      "n_fp": 1,
+      "file": "hn045_URT007_2022_01_03_001_8820_aug_2_00069_augfill_01368_rot90cw.jpg"
+    },
+    {
+      "src": "URT017_2020_01_14_002_6737_aug_0_00646_augfill_00263_rot90ccw.jpg",
+      "origin": "URT017_2020_01_14_002_6737",
+      "box": [
+        360,
+        640,
+        720,
+        1280
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.5716,
+      "n_fp": 3,
+      "file": "hn046_URT017_2020_01_14_002_6737_aug_0_00646_augfill_00263_rot90cc.jpg"
+    },
+    {
+      "src": "URT007_2022_01_03_001_14596_aug_2_00407_augfill_01153_rot90ccw.jpg",
+      "origin": "URT007_2022_01_03_001_14596",
+      "box": [
+        0,
+        640,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.5577,
+      "n_fp": 3,
+      "file": "hn047_URT007_2022_01_03_001_14596_aug_2_00407_augfill_01153_rot90c.jpg"
+    },
+    {
+      "src": "URT010_2022_02_09_001_2500_aug_3_00342.jpg",
+      "origin": "URT010_2022_02_09_001_2500",
+      "box": [
+        640,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.5504,
+      "n_fp": 1,
+      "file": "hn048_URT010_2022_02_09_001_2500_aug_3_00342.jpg"
+    },
+    {
+      "src": "URT008_2022_02_04_001_13752_aug_3_00535.jpg",
+      "origin": "URT008_2022_02_04_001_13752",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.5431,
+      "n_fp": 1,
+      "file": "hn049_URT008_2022_02_04_001_13752_aug_3_00535.jpg"
+    },
+    {
+      "src": "URT007_2022_01_11_001_19176_aug_2_00669.jpg",
+      "origin": "URT007_2022_01_11_001_19176",
+      "box": [
+        640,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.5345,
+      "n_fp": 2,
+      "file": "hn050_URT007_2022_01_11_001_19176_aug_2_00669.jpg"
+    },
+    {
+      "src": "URT002_2021_01_12_001_2306_aug_1_00259.jpg",
+      "origin": "URT002_2021_01_12_001_2306",
+      "box": [
+        640,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.5322,
+      "n_fp": 1,
+      "file": "hn051_URT002_2021_01_12_001_2306_aug_1_00259.jpg"
+    },
+    {
+      "src": "URT002_2021_01_12_001_2306_aug_1_00259_augfill_01516_noise.jpg",
+      "origin": "URT002_2021_01_12_001_2306",
+      "box": [
+        640,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.5305,
+      "n_fp": 1,
+      "file": "hn052_URT002_2021_01_12_001_2306_aug_1_00259_augfill_01516_noise.jpg"
+    },
+    {
+      "src": "URT007_2022_01_03_001_5324_aug_2_00633_augfill_01136_rot90ccw.jpg",
+      "origin": "URT007_2022_01_03_001_5324",
+      "box": [
+        360,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.5121,
+      "n_fp": 6,
+      "file": "hn053_URT007_2022_01_03_001_5324_aug_2_00633_augfill_01136_rot90cc.jpg"
+    },
+    {
+      "src": "URT017_2020_01_14_002_3336_aug_0_00639_augfill_00077_rot90cw.jpg",
+      "origin": "URT017_2020_01_14_002_3336",
+      "box": [
+        180,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.5106,
+      "n_fp": 1,
+      "file": "hn054_URT017_2020_01_14_002_3336_aug_0_00639_augfill_00077_rot90cw.jpg"
+    },
+    {
+      "src": "URT006_2022_04_06_001_5744.jpg",
+      "origin": "URT006_2022_04_06_001_5744",
+      "box": [
+        0,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.5045,
+      "n_fp": 1,
+      "file": "hn055_URT006_2022_04_06_001_5744.jpg"
+    },
+    {
+      "src": "URT007_2022_01_03_001_13166_aug_1_00170_augfill_00480_rot180_contrast.jpg",
+      "origin": "URT007_2022_01_03_001_13166",
+      "box": [
+        640,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.486,
+      "n_fp": 2,
+      "file": "hn056_URT007_2022_01_03_001_13166_aug_1_00170_augfill_00480_rot180.jpg"
+    },
+    {
+      "src": "URT007_2022_01_11_001_19176_aug_2_00330.jpg",
+      "origin": "URT007_2022_01_11_001_19176",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.4657,
+      "n_fp": 4,
+      "file": "hn057_URT007_2022_01_11_001_19176_aug_2_00330.jpg"
+    },
+    {
+      "src": "URT007_2022_01_03_001_1184_aug_2_00631_augfill_01514_rot90ccw.jpg",
+      "origin": "URT007_2022_01_03_001_1184",
+      "box": [
+        180,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.4634,
+      "n_fp": 5,
+      "file": "hn058_URT007_2022_01_03_001_1184_aug_2_00631_augfill_01514_rot90cc.jpg"
+    },
+    {
+      "src": "URT007_2022_01_03_001_14596_aug_2_00200_augfill_00893_rot90cw.jpg",
+      "origin": "URT007_2022_01_03_001_14596",
+      "box": [
+        360,
+        640,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.4515,
+      "n_fp": 1,
+      "file": "hn059_URT007_2022_01_03_001_14596_aug_2_00200_augfill_00893_rot90c.jpg"
+    },
+    {
+      "src": "URT019_2022_01_06_001_4112_aug_3_00269_augfill_00763_rot90ccw.jpg",
+      "origin": "URT019_2022_01_06_001_4112",
+      "box": [
+        180,
+        640,
+        720,
+        1280
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.446,
+      "n_fp": 2,
+      "file": "hn060_URT019_2022_01_06_001_4112_aug_3_00269_augfill_00763_rot90cc.jpg"
+    },
+    {
+      "src": "URT007_2022_01_03_001_5324_aug_2_00319_augfill_01313_rot90ccw.jpg",
+      "origin": "URT007_2022_01_03_001_5324",
+      "box": [
+        360,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.4361,
+      "n_fp": 7,
+      "file": "hn061_URT007_2022_01_03_001_5324_aug_2_00319_augfill_01313_rot90cc.jpg"
+    },
+    {
+      "src": "URT008_2022_02_05_001_40266_aug_1_00059.jpg",
+      "origin": "URT008_2022_02_05_001_40266",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.4004,
+      "n_fp": 1,
+      "file": "hn062_URT008_2022_02_05_001_40266_aug_1_00059.jpg"
+    },
+    {
+      "src": "URT010_2022_02_06_001_23809_aug_1_00465.jpg",
+      "origin": "URT010_2022_02_06_001_23809",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.3614,
+      "n_fp": 1,
+      "file": "hn063_URT010_2022_02_06_001_23809_aug_1_00465.jpg"
+    },
+    {
+      "src": "URT008_2022_01_10_001_7558_aug_3_00486.jpg",
+      "origin": "URT008_2022_01_10_001_7558",
+      "box": [
+        640,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.3562,
+      "n_fp": 2,
+      "file": "hn064_URT008_2022_01_10_001_7558_aug_3_00486.jpg"
+    },
+    {
+      "src": "URT010_2022_01_10_001_8202_aug_1_00169.jpg",
+      "origin": "URT010_2022_01_10_001_8202",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.349,
+      "n_fp": 1,
+      "file": "hn065_URT010_2022_01_10_001_8202_aug_1_00169.jpg"
+    },
+    {
+      "src": "URT008_2022_01_10_001_7558_aug_3_00121_augfill_00042_rot180_contrast.jpg",
+      "origin": "URT008_2022_01_10_001_7558",
+      "box": [
+        0,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.3426,
+      "n_fp": 2,
+      "file": "hn066_URT008_2022_01_10_001_7558_aug_3_00121_augfill_00042_rot180_.jpg"
+    },
+    {
+      "src": "URT017_2020_02_05_001_5519_augfill_00789_hflip.jpg",
+      "origin": "URT017_2020_02_05_001_5519",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.3361,
+      "n_fp": 1,
+      "file": "hn067_URT017_2020_02_05_001_5519_augfill_00789_hflip.jpg"
+    },
+    {
+      "src": "URT008_2022_04_05_001_4906_aug_3_00639_augfill_00944_hflip_brightness.jpg",
+      "origin": "URT008_2022_04_05_001_4906",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.3256,
+      "n_fp": 1,
+      "file": "hn068_URT008_2022_04_05_001_4906_aug_3_00639_augfill_00944_hflip_b.jpg"
+    },
+    {
+      "src": "URT006_2022_04_06_001_5744.jpg",
+      "origin": "URT006_2022_04_06_001_5744",
+      "box": [
+        0,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.3157,
+      "n_fp": 1,
+      "file": "hn069_URT006_2022_04_06_001_5744.jpg"
+    },
+    {
+      "src": "URT010_2022_02_06_991_7415_aug_0_00791_augfill_00551_hflip_brightness.jpg",
+      "origin": "URT010_2022_02_06_991_7415",
+      "box": [
+        0,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.3149,
+      "n_fp": 1,
+      "file": "hn070_URT010_2022_02_06_991_7415_aug_0_00791_augfill_00551_hflip_b.jpg"
+    },
+    {
+      "src": "URT017_2020_01_14_002_3336_aug_0_00447.jpg",
+      "origin": "URT017_2020_01_14_002_3336",
+      "box": [
+        640,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.3059,
+      "n_fp": 1,
+      "file": "hn071_URT017_2020_01_14_002_3336_aug_0_00447.jpg"
+    },
+    {
+      "src": "URT008_2022_04_05_001_4906_aug_3_00815_augfill_01199_rot90cw.jpg",
+      "origin": "URT008_2022_04_05_001_4906",
+      "box": [
+        360,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.3032,
+      "n_fp": 1,
+      "file": "hn072_URT008_2022_04_05_001_4906_aug_3_00815_augfill_01199_rot90cw.jpg"
+    },
+    {
+      "src": "URT002_2021_03_06_001_16146_aug_1_00578_augfill_00923_rot90ccw.jpg",
+      "origin": "URT002_2021_03_06_001_16146",
+      "box": [
+        360,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.302,
+      "n_fp": 1,
+      "file": "hn073_URT002_2021_03_06_001_16146_aug_1_00578_augfill_00923_rot90c.jpg"
+    },
+    {
+      "src": "URT010_2022_02_08_001_2503_aug_3_00774.jpg",
+      "origin": "URT010_2022_02_08_001_2503",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.3012,
+      "n_fp": 3,
+      "file": "hn074_URT010_2022_02_08_001_2503_aug_3_00774.jpg"
+    },
+    {
+      "src": "URT010_2022_03_05_001_24486_aug_1_00937_augfill_00601_rot180.jpg",
+      "origin": "URT010_2022_03_05_001_24486",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.2976,
+      "n_fp": 3,
+      "file": "hn075_URT010_2022_03_05_001_24486_aug_1_00937_augfill_00601_rot180.jpg"
+    },
+    {
+      "src": "URT005_2021_02_10_001_15956_aug_0_00349.jpg",
+      "origin": "URT005_2021_02_10_001_15956",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.2939,
+      "n_fp": 1,
+      "file": "hn076_URT005_2021_02_10_001_15956_aug_0_00349.jpg"
+    },
+    {
+      "src": "URT010_2022_02_08_001_2503.jpg",
+      "origin": "URT010_2022_02_08_001_2503",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.289,
+      "n_fp": 1,
+      "file": "hn077_URT010_2022_02_08_001_2503.jpg"
+    },
+    {
+      "src": "URT010_2022_02_06_991_7415_aug_0_00511.jpg",
+      "origin": "URT010_2022_02_06_991_7415",
+      "box": [
+        640,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.2887,
+      "n_fp": 5,
+      "file": "hn078_URT010_2022_02_06_991_7415_aug_0_00511.jpg"
+    },
+    {
+      "src": "URT002_2021_03_16_001_14582_aug_1_00646.jpg",
+      "origin": "URT002_2021_03_16_001_14582",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.2827,
+      "n_fp": 2,
+      "file": "hn079_URT002_2021_03_16_001_14582_aug_1_00646.jpg"
+    },
+    {
+      "src": "URT007_2022_01_12_001_34998.jpg",
+      "origin": "URT007_2022_01_12_001_34998",
+      "box": [
+        0,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.2815,
+      "n_fp": 1,
+      "file": "hn080_URT007_2022_01_12_001_34998.jpg"
+    },
+    {
+      "src": "URT005_2021_02_10_001_15956_aug_0_00201_augfill_00394_noise.jpg",
+      "origin": "URT005_2021_02_10_001_15956",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.2729,
+      "n_fp": 1,
+      "file": "hn081_URT005_2021_02_10_001_15956_aug_0_00201_augfill_00394_noise.jpg"
+    },
+    {
+      "src": "URT007_2022_01_03_001_1184_aug_2_00631_augfill_01514_rot90ccw.jpg",
+      "origin": "URT007_2022_01_03_001_1184",
+      "box": [
+        360,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.2454,
+      "n_fp": 4,
+      "file": "hn082_URT007_2022_01_03_001_1184_aug_2_00631_augfill_01514_rot90cc.jpg"
+    },
+    {
+      "src": "URT002_2021_03_16_001_14582_aug_1_00646_augfill_00596_noise.jpg",
+      "origin": "URT002_2021_03_16_001_14582",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.2429,
+      "n_fp": 3,
+      "file": "hn083_URT002_2021_03_16_001_14582_aug_1_00646_augfill_00596_noise.jpg"
+    },
+    {
+      "src": "URT002_2021_03_06_001_8522.jpg",
+      "origin": "URT002_2021_03_06_001_8522",
+      "box": [
+        640,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.2184,
+      "n_fp": 1,
+      "file": "hn084_URT002_2021_03_06_001_8522.jpg"
+    },
+    {
+      "src": "URT002_2021_03_06_001_8828_aug_3_00959_augfill_00167_vflip.jpg",
+      "origin": "URT002_2021_03_06_001_8828",
+      "box": [
+        320,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.2179,
+      "n_fp": 1,
+      "file": "hn085_URT002_2021_03_06_001_8828_aug_3_00959_augfill_00167_vflip.jpg"
+    },
+    {
+      "src": "URT019_2022_01_06_001_4112_aug_3_00269.jpg",
+      "origin": "URT019_2022_01_06_001_4112",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.2174,
+      "n_fp": 1,
+      "file": "hn086_URT019_2022_01_06_001_4112_aug_3_00269.jpg"
+    },
+    {
+      "src": "URT008_2022_02_05_001_40266_aug_1_00005_augfill_01493_noise.jpg",
+      "origin": "URT008_2022_02_05_001_40266",
+      "box": [
+        320,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.213,
+      "n_fp": 3,
+      "file": "hn087_URT008_2022_02_05_001_40266_aug_1_00005_augfill_01493_noise.jpg"
+    },
+    {
+      "src": "URT002_2021_03_06_001_8828_aug_3_00848_augfill_00688_rot90cw.jpg",
+      "origin": "URT002_2021_03_06_001_8828",
+      "box": [
+        360,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "crack",
+      "fp_conf": 0.2125,
+      "n_fp": 1,
+      "file": "hn088_URT002_2021_03_06_001_8828_aug_3_00848_augfill_00688_rot90cw.jpg"
+    },
+    {
+      "src": "URT004_2021_04_06_001_17658_aug_3_00019_augfill_00175_rot90ccw.jpg",
+      "origin": "URT004_2021_04_06_001_17658",
+      "box": [
+        360,
+        640,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.2082,
+      "n_fp": 3,
+      "file": "hn089_URT004_2021_04_06_001_17658_aug_3_00019_augfill_00175_rot90c.jpg"
+    },
+    {
+      "src": "URT002_2021_03_06_001_16146_aug_1_00435_augfill_01341_vflip.jpg",
+      "origin": "URT002_2021_03_06_001_16146",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.2055,
+      "n_fp": 3,
+      "file": "hn090_URT002_2021_03_06_001_16146_aug_1_00435_augfill_01341_vflip.jpg"
+    },
+    {
+      "src": "URT002_2021_01_16_001_960_augfill_01407_rot90ccw.jpg",
+      "origin": "URT002_2021_01_16_001_960",
+      "box": [
+        360,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.1869,
+      "n_fp": 1,
+      "file": "hn091_URT002_2021_01_16_001_960_augfill_01407_rot90ccw.jpg"
+    },
+    {
+      "src": "URT004_2021_04_07_001_7312_augfill_01193_rot180_contrast.jpg",
+      "origin": "URT004_2021_04_07_001_7312",
+      "box": [
+        640,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.1829,
+      "n_fp": 1,
+      "file": "hn092_URT004_2021_04_07_001_7312_augfill_01193_rot180_contrast.jpg"
+    },
+    {
+      "src": "URT004_2021_04_06_001_17658_aug_3_00678_augfill_01576_vflip.jpg",
+      "origin": "URT004_2021_04_06_001_17658",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.1699,
+      "n_fp": 1,
+      "file": "hn093_URT004_2021_04_06_001_17658_aug_3_00678_augfill_01576_vflip.jpg"
+    },
+    {
+      "src": "URT010_2022_03_05_001_24486_aug_1_00342.jpg",
+      "origin": "URT010_2022_03_05_001_24486",
+      "box": [
+        640,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.1481,
+      "n_fp": 2,
+      "file": "hn094_URT010_2022_03_05_001_24486_aug_1_00342.jpg"
+    },
+    {
+      "src": "URT002_2021_01_16_001_960.jpg",
+      "origin": "URT002_2021_01_16_001_960",
+      "box": [
+        320,
+        360,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.1315,
+      "n_fp": 3,
+      "file": "hn095_URT002_2021_01_16_001_960.jpg"
+    },
+    {
+      "src": "URT007_2022_01_03_001_13166_aug_1_00492_augfill_01207_noise.jpg",
+      "origin": "URT007_2022_01_03_001_13166",
+      "box": [
+        640,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.0948,
+      "n_fp": 1,
+      "file": "hn096_URT007_2022_01_03_001_13166_aug_1_00492_augfill_01207_noise.jpg"
+    },
+    {
+      "src": "URT010_2022_02_06_001_18862_aug_1_00832_augfill_01449_rot90ccw.jpg",
+      "origin": "URT010_2022_02_06_001_18862",
+      "box": [
+        360,
+        640,
+        720,
+        1280
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.0934,
+      "n_fp": 1,
+      "file": "hn097_URT010_2022_02_06_001_18862_aug_1_00832_augfill_01449_rot90c.jpg"
+    },
+    {
+      "src": "URT017_2020_02_04_001_17827_aug_0_00770_augfill_01456_noise.jpg",
+      "origin": "URT017_2020_02_04_001_17827",
+      "box": [
+        640,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.0865,
+      "n_fp": 1,
+      "file": "hn098_URT017_2020_02_04_001_17827_aug_0_00770_augfill_01456_noise.jpg"
+    },
+    {
+      "src": "URT017_2020_02_05_001_5519.jpg",
+      "origin": "URT017_2020_02_05_001_5519",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.0784,
+      "n_fp": 4,
+      "file": "hn099_URT017_2020_02_05_001_5519.jpg"
+    },
+    {
+      "src": "URT010_2022_01_10_001_8202_aug_1_00339_augfill_00268_rot90cw.jpg",
+      "origin": "URT010_2022_01_10_001_8202",
+      "box": [
+        360,
+        0,
+        720,
+        1280
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.0714,
+      "n_fp": 2,
+      "file": "hn100_URT010_2022_01_10_001_8202_aug_1_00339_augfill_00268_rot90cw.jpg"
+    },
+    {
+      "src": "URT004_2021_02_09_001_17750_augfill_00988_hflip.jpg",
+      "origin": "URT004_2021_02_09_001_17750",
+      "box": [
+        320,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.0663,
+      "n_fp": 1,
+      "file": "hn101_URT004_2021_02_09_001_17750_augfill_00988_hflip.jpg"
+    },
+    {
+      "src": "URT017_2020_02_04_001_17827_aug_0_00446.jpg",
+      "origin": "URT017_2020_02_04_001_17827",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.0642,
+      "n_fp": 2,
+      "file": "hn102_URT017_2020_02_04_001_17827_aug_0_00446.jpg"
+    },
+    {
+      "src": "URT008_2022_01_12_001_7562_augfill_00693_brightness.jpg",
+      "origin": "URT008_2022_01_12_001_7562",
+      "box": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.0622,
+      "n_fp": 1,
+      "file": "hn103_URT008_2022_01_12_001_7562_augfill_00693_brightness.jpg"
+    },
+    {
+      "src": "URT004_2021_02_09_001_17750.jpg",
+      "origin": "URT004_2021_02_09_001_17750",
+      "box": [
+        320,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "spall_detach",
+      "fp_conf": 0.0621,
+      "n_fp": 1,
+      "file": "hn104_URT004_2021_02_09_001_17750.jpg"
+    },
+    {
+      "src": "URT006_2022_02_10_001_6510.jpg",
+      "origin": "URT006_2022_02_10_001_6510",
+      "box": [
+        320,
+        0,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.0557,
+      "n_fp": 1,
+      "file": "hn105_URT006_2022_02_10_001_6510.jpg"
+    },
+    {
+      "src": "URT017_2020_02_02_001_2331_aug_0_00422_augfill_01005_rot90ccw.jpg",
+      "origin": "URT017_2020_02_02_001_2331",
+      "box": [
+        180,
+        640,
+        720,
+        1280
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.0387,
+      "n_fp": 1,
+      "file": "hn106_URT017_2020_02_02_001_2331_aug_0_00422_augfill_01005_rot90cc.jpg"
+    },
+    {
+      "src": "URT017_2020_02_02_001_2331_aug_0_00928.jpg",
+      "origin": "URT017_2020_02_02_001_2331",
+      "box": [
+        0,
+        180,
+        1280,
+        720
+      ],
+      "fp_class": "efflorescence",
+      "fp_conf": 0.0341,
+      "n_fp": 1,
+      "file": "hn107_URT017_2020_02_02_001_2331_aug_0_00928.jpg"
+    }
+  ]
+}

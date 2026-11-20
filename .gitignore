@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pt
+data/
+runs/
+*.docx
+*.pdf
+
+# 2026-11-20 공개 저장소 정리
+*.log
+week*/_docgen/
+week3/cache/
+week3/overnight_logs/
+week3/overnight_stdout.txt
+week3/overnight_stderr.txt
+# 데이터셋 원본 복사본 · 원래 크기 사진 (AI Hub 사진은 줄인 그림으로만 공개 — shrink_figs.py)
+week2/annotate/images/
+week2/annotate/reference/
+week2/annotate/painted/
+week2/week2_submission_backup_*.docx

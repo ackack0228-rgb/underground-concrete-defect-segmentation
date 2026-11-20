@@ -1,0 +1,34 @@
+{
+  "기준": {
+    "val": {
+      "n": 88,
+      "any": 31,
+      "crack": 3,
+      "efflorescence": 22,
+      "spall_detach": 6
+    },
+    "test": {
+      "n": 59,
+      "any": 23,
+      "crack": 5,
+      "efflorescence": 13,
+      "spall_detach": 5
+    }
+  },
+  "하드네거티브": {
+    "val": {
+      "n": 88,
+      "any": 26,
+      "crack": 1,
+      "efflorescence": 24,
+      "spall_detach": 1
+    },
+    "test": {
+      "n": 59,
+      "any": 24,
+      "crack": 3,
+      "efflorescence": 21,
+      "spall_detach": 0
+    }
+  }
+}
